@@ -187,7 +187,7 @@ movies_dict = load_pickle_gzip('movies_dict.pkl.gz')  # .gz file
 movies = pd.DataFrame(movies_dict)
 
 # Load similarity data (now it's .xz file)
-similarity = load_pickle_xz('similarity_compressed.pkl.xz')  # .xz file
+similarity = load_pickle_xz('similarity_compressed.xz')  # .xz file
 
 # Recommendation function
 def recommend(movie_name):
